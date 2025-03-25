@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handwritten Digit Recognition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Handwritten Digit Recognition</h1>
+    <canvas id="drawingCanvas" width="280" height="280"></canvas>
+    <div>
+      <button onclick="clearCanvas()">Clear</button>
+    </div>
+    <h2>Prediction: <span id="prediction">?</span></h2>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="app.js"></script>
+  </div>
+</body>
+</html>
